@@ -27,7 +27,7 @@ let rej = function(result)
 }
 
 promise.then(res).catch(rej)
-
+console.log("THE END");
 //promise.then(res).catch(rej).finally()
 //finally is not working in ts code
 
